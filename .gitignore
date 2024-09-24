@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+*.cover
+*.py,cover
+.hypothesis/
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# pyenv
+.python-version
+
+# pylint
+.pylintrc
+
+# FastAPI related cache and static files
+static/
+*.log
+
+# Ignore requirements compiled from pip freeze
+requirements.txt
+
+# Ignore compiled files
+*.log
+*.sqlite
+test.db
